@@ -324,7 +324,7 @@ function next(){
 ================================================= */
 
 let pinInput = '';
-const correctPin = '7777';
+const correctPin = '2801';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -373,7 +373,7 @@ function checkPin(){
 
 const questions=[
 {q:"When did we first meet?", options:["January","February","March"],correct:0},
-{q:"What do I do when I miss you?", options:["Sleep","Text you","Pretend I'm fine"],correct:1},
+{q:"What do I do when I miss you?", options:["Call you","Text you","Pretend I'm fine"],correct:0},
 {q:"Who loves harder?", options:["You","Me","Both"],correct:2}
 ];
 
@@ -439,7 +439,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-29T00:00:00");
+    const start = new Date("2026-01-28T00:00:00");
 
     setInterval(()=>{
 
